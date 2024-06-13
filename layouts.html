@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layouts</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        .mycontainer{
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="mycontainer row mb-3">
+        <div class="col-4 bg-primary"></div>
+        <div class="col-4 bg-warning"></div>
+        <div class="col-4 bg-danger"></div>
+    </div>
+    <div class="mycontainer row mb-3">
+        <div class="col-6 bg-primary"></div>
+        <div class="col-6 row">
+            <div class="col-12 bg-warning"></div>
+            <div class="col-12 bg-success"></div>
+        </div>
+    </div>
+
+    <div class="mycontainer row mb-3">
+        <div class="col-4 bg-primary"></div>
+        <div class="col-4 bg-warning"></div>
+        <div class="col-4 bg-danger"></div>
+        <div class="col-4 bg-success"></div>
+        <div class="col-4 bg-info"></div>
+        <div class="col-4 bg-secondary"></div>
+    </div>
+
+    <div class="mycontainer row mb-3">
+        <div class="col-4">
+            <div class="bg-primary h-25"></div>
+            <div class="bg-warning h-75"></div>
+        </div>
+        <div class="col-4">
+            <div class="bg-info h-75"></div>
+            <div class="bg-danger h-25"></div>
+        </div>
+        <div class="col-4">
+            <div class="bg-success h-25"></div>
+            <div class="bg-dark h-75"></div>
+        </div>
+    </div>
+
+    <div class="mycontainer mb-3">
+        <div class="row h-50">
+            <div class="col-6 bg-primary"></div>
+            <div class="col-6 bg-warning"></div>
+        </div>
+        <div class="row h-50">
+            <div class="col-4 bg-danger"></div>
+            <div class="col-4 bg-info"></div>
+            <div class="col-4 bg-success"></div>
+        </div>
+    </div>
+
+    <div class="mycontainer mb-3">
+        <div class="row h-75">
+            <div class="col-8 bg-primary"></div>
+            <div class="col-4">
+                <div class="bg-warning h-25"></div>
+                <div class="bg-danger h-75"></div>
+            </div>
+        </div>
+        <div class="row h-25">
+            <div class="col-4 bg-info"></div>
+            <div class="col-4 bg-success"></div>
+            <div class="col-4 bg-dark"></div>
+        </div>
+    </div>
+
+    <div class="mycontainer mb-3">
+        
+    </div>
+</body>
+</html>
